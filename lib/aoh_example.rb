@@ -1,5 +1,5 @@
 # Examples inspired by David Foster Wallace's # (2/21/1962 to 9/12/2008) _Infinite Jest_
-
+require "pry"
 DON_G = { name:  "Don Gately", occupation: "Live-in Staff" }
 JOELLE_VD = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
 PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
@@ -28,4 +28,6 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
   constant_names = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
   constant_names[2][:name] = "Joelle van Dyne (PGOAT)"
+  binding.pry 
+  constant_names
 end
