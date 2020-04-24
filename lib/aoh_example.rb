@@ -19,6 +19,7 @@ def literal_aoh
 end
 
 def aoh_lookup(aoh, row, key)
+  constant_names = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
   constant_names[2][:name]
 end
 
