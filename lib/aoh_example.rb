@@ -28,5 +28,6 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
   constant_names = [DON_G, JOELLE_VD, PAT_M, KATE_G, BRUCE_G]
   constant_names[2][:name] = "Joelle van Dyne (PGOAT)"
+  constant_names[2]
   constant_names
 end
